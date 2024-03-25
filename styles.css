@@ -1,0 +1,34 @@
+table,td,th{
+    margin-left: 20px;
+    border:1px solid  #c4dcf3;
+    border-left: 0px;
+    border-right: 0px;
+
+    border-collapse: collapse;
+}
+
+thead,tfoot{
+    background-color: #427fef ;
+    padding: 1px;
+}
+tbody tr:nth-child(odd){
+    background-color: #eef7ff ;
+    border-bottom: 10px;
+    border-top: 10px;
+}
+tfoot{
+   text-align: left;
+}
+td,th{
+    padding: 10px;
+    
+}
+.box{
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    box-shadow: 10px 10px  lightgrey;
+    border-radius: 10px;
+    
+}
