@@ -1,0 +1,48 @@
+
+body{
+    background:url(/images/image.png);
+    background-size: cover;
+    /* filter:blur(7px); */
+  
+    
+}
+
+
+
+@keyframes web{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: rotate(10deg);
+        background-color: rgb(0, 225, 255);
+    }
+    100%{
+        transform: rotate(2deg);
+    }
+
+}
+
+.container{
+    margin: 10rem;
+    width: 20rem;
+    height: 5rem;
+    background-color:rgb(194, 161, 201);
+    animation-name: web;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+h1{
+    
+    filter: none;
+    backdrop-filter: none;
+    -webkit-filter: none;
+    
+}
